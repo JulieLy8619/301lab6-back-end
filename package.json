@@ -1,0 +1,25 @@
+{
+  "name": "301lab6-back-end",
+  "version": "1.0.0",
+  "description": "lab 6 for code fellows 301d40",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulieLy8619/301lab6-back-end.git"
+  },
+  "author": "Julie Ly and Becca Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulieLy8619/301lab6-back-end/issues"
+  },
+  "homepage": "https://github.com/JulieLy8619/301lab6-back-end#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "superagent": "^4.0.0"
+  }
+}
