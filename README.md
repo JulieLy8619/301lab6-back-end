@@ -46,5 +46,6 @@ Finish time: _____
 Actual time needed to complete: _____
 
 ## Credits and Collaborations
--Sam Hamm for notes on how to write server js (from class 6)
+- Sam Hamm for notes on how to write server js (from class 6)
+- David Stoll helped us when nodemon wouldn't work
 -->
