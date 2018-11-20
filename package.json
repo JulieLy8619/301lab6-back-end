@@ -2,7 +2,7 @@
   "name": "301lab6-back-end",
   "version": "1.0.0",
   "description": "lab 6 for code fellows 301d40",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
