@@ -26,8 +26,8 @@ Javascript, node, NPM, Express. dotENV, google geocoding API, Heroku, Github, Po
 Number and name of feature: Feature #1: Obtain latitude and longitude
 Estimate of time needed to complete: 2 hr
 Start time: 10:15
-Finish time: _____
-Actual time needed to complete: _____
+Finish time: 11:45
+Actual time needed to complete: 1.5 hours
 - becca deployed heroku
 - julie built server.js, which was taken from lecture class 6
 
