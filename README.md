@@ -28,6 +28,8 @@ Estimate of time needed to complete: 2 hr
 Start time: 10:15
 Finish time: _____
 Actual time needed to complete: _____
+- becca deployed heroku
+- julie built server.js, which was taken from lecture class 6
 
 ------------
 Number and name of feature: ________________________________
@@ -44,5 +46,5 @@ Finish time: _____
 Actual time needed to complete: _____
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+-Sam Hamm for notes on how to write server js (from class 6)
 -->
