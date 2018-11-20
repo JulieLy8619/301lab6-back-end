@@ -13,13 +13,25 @@ const app = express(); // creates app instance
 app.use(cors()); // tells app to use cors
 
 // API Routes
-app.get('/location', handleLocation)
+app.get('/location', (request,response) => {
+  console.log(request.query.data, 'is the query that came from the search field in the browser?????');
+  const locationData = searchToLatLong(request.query.data);
+  console.log(locationData);
+  response.send(locationData);
+});
 
 // Helper Functions
-function handleLocation(request, response) {
-  console.log('location route hit!');
-  response.send('response sent');
+function searchToLatLong(query) {
+  const geoData = require('./data/geo.json');
+  const location = new Location(geoData.results[0]);
+  location.search_query = query;
+  return location;
 }
 
-// Make sure the server is listening
-app.listen(PORT, () => console.log(`Server alive and well on port ${PORT}`));
+function Location(data) {
+  this.formatted_query = data.formatted_address;
+  this.latitude = data.geometry.location.lat;
+  this.longitude = data.geometry.location.lng;
+}
+
+app.listen(PORT, () => console.log(`App is up on ${PORT}`));
